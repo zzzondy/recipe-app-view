@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.RecipeApp" parent="Base.Theme.RecipeApp">
+        <item name="android:navigationBarColor">@color/transparent</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+
+        <item name="colorError100">@color/error100</item>
+        <item name="colorError10">@color/error10</item>
+
+        <item name="colorSuccess100">@color/success100</item>
+        <item name="colorSuccess10">@color/success10</item>
+
+        <item name="typographyRegularHeading">@style/TextAppearance.AppCompat.Regular.Heading</item>
+        <item name="typographyRegularH1">@style/TextAppearance.AppCompat.Regular.H1</item>
+        <item name="typographyRegularH2">@style/TextAppearance.AppCompat.Regular.H2</item>
+        <item name="typographyRegularH3">@style/TextAppearance.AppCompat.Regular.H3</item>
+        <item name="typographyRegularH4">@style/TextAppearance.AppCompat.Regular.H4</item>
+        <item name="typographyRegularH5">@style/TextAppearance.AppCompat.Regular.H5</item>
+        <item name="typographyRegularParagraph">@style/TextAppearance.AppCompat.Regular.Paragraph
+        </item>
+        <item name="typographyRegularLabel">@style/TextAppearance.AppCompat.Regular.Label</item>
+        <item name="typographyRegularSmall">@style/TextAppearance.AppCompat.Regular.Small</item>
+        <item name="typographyRegularTiny">@style/TextAppearance.AppCompat.Regular.Tiny</item>
+
+        <item name="typographyBoldHeading">@style/TextAppearance.AppCompat.Bold.Heading</item>
+        <item name="typographyBoldH1">@style/TextAppearance.AppCompat.Bold.H1</item>
+        <item name="typographyBoldH2">@style/TextAppearance.AppCompat.Bold.H2</item>
+        <item name="typographyBoldH3">@style/TextAppearance.AppCompat.Bold.H3</item>
+        <item name="typographyBoldH4">@style/TextAppearance.AppCompat.Bold.H4</item>
+        <item name="typographyBoldH5">@style/TextAppearance.AppCompat.Bold.H5</item>
+        <item name="typographyBoldParagraph">@style/TextAppearance.AppCompat.Bold.Paragraph</item>
+        <item name="typographyBoldLabel">@style/TextAppearance.AppCompat.Bold.Label</item>
+        <item name="typographyBoldSmall">@style/TextAppearance.AppCompat.Bold.Small</item>
+        <item name="typographyBoldTiny">@style/TextAppearance.AppCompat.Bold.Tiny</item>
+
+        <item name="defaultCornerRadius">@dimen/default_corner_radius</item>
+
+        <item name="extraSmallMargin">@dimen/extra_small_margin</item>
+        <item name="smallMargin">@dimen/small_margin</item>
+        <item name="mediumMargin">@dimen/medium_margin</item>
+        <item name="largeMargin">@dimen/large_margin</item>
+        <item name="extraLargeMargin">@dimen/extra_large_margin</item>
+
+        <item name="headingSize">@dimen/heading_size</item>
+        <item name="h1Size">@dimen/h1_size</item>
+        <item name="h2Size">@dimen/h2_size</item>
+        <item name="h3Size">@dimen/h3_size</item>
+        <item name="h4Size">@dimen/h4_size</item>
+        <item name="h5Size">@dimen/h5_size</item>
+        <item name="paragraphSize">@dimen/paragraph_size</item>
+        <item name="labelSize">@dimen/label_size</item>
+        <item name="smallSize">@dimen/small_size</item>
+        <item name="tinySize">@dimen/tiny_size</item>
+
+        <item name="icon_size">@dimen/icon_size</item>
+
+        <item name="primaryButton">@style/RecipeApp.Widget.Primary.Button</item>
+        <item name="primaryIconButton">@style/RecipeApp.Widget.Primary.IconButton</item>
+        <item name="secondaryButton">@style/RecipeApp.Widget.Secondary.Button</item>
+        <item name="secondaryIconButton">@style/RecipeApp.Widget.Secondary.IconButton</item>
+        <item name="textButton">@style/RecipeApp.Widget.Text.Button</item>
+        <item name="transparentIconButton">@style/RecipeApp.Widget.Text.IconButton</item>
+
+        <item name="primaryTextField">@style/RecipeApp.Widget.Primary.TextField</item>
+    </style>
+</resources>

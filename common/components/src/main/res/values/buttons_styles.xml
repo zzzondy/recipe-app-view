@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RecipeApp.Widget.Primary.Button" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/primary50_neutral20_color_enabled_state</item>
+        <item name="android:textAppearance">?attr/typographyBoldLabel</item>
+        <item name="cornerRadius">?attr/defaultCornerRadius</item>
+        <item name="android:textColor">@color/white_neutral50_color_enabled_state</item>
+    </style>
+
+    <style name="RecipeApp.Widget.Primary.IconButton" parent="Widget.Material3.Button.IconButton.Filled">
+        <item name="android:backgroundTint">@color/primary50_neutral20_color_enabled_state</item>
+        <item name="iconTint">@color/white_neutral50_color_enabled_state</item>
+        <item name="cornerRadius">?attr/defaultCornerRadius</item>
+        <item name="iconGravity">textEnd</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="iconPadding">0dp</item>
+        <item name="iconSize">?attr/icon_size</item>
+    </style>
+
+    <style name="RecipeApp.Widget.Secondary.Button" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:backgroundTint">@color/transparent</item>
+        <item name="strokeColor">@color/primary50_neutral20_color_enabled_state</item>
+        <item name="android:textAppearance">?attr/typographyBoldLabel</item>
+        <item name="android:textColor">@color/primary50_neutral50_color_enabled_state</item>
+        <item name="cornerRadius">?attr/defaultCornerRadius</item>
+    </style>
+
+    <style name="RecipeApp.Widget.Secondary.IconButton" parent="Widget.Material3.Button.IconButton.Outlined">
+        <item name="android:backgroundTint">@color/transparent</item>
+        <item name="iconTint">@color/primary50_neutral50_color_enabled_state</item>
+        <item name="cornerRadius">?attr/defaultCornerRadius</item>
+        <item name="strokeColor">@color/primary50_neutral20_color_enabled_state</item>
+        <item name="iconGravity">textEnd</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="iconPadding">0dp</item>
+        <item name="iconSize">?attr/icon_size</item>
+    </style>
+
+    <style name="RecipeApp.Widget.Text.Button" parent="Widget.Material3.Button.TextButton">
+        <item name="backgroundTint">@color/transparent</item>
+        <item name="android:textColor">@color/primary50_neutral50_color_enabled_state</item>
+        <item name="android:textAppearance">?attr/typographyBoldLabel</item>
+    </style>
+
+    <style name="RecipeApp.Widget.Text.IconButton" parent="Widget.Material3.Button.IconButton">
+        <item name="android:backgroundTint">@color/transparent</item>
+        <item name="iconTint">@color/primary50_neutral50_color_enabled_state</item>
+        <item name="cornerRadius">?attr/defaultCornerRadius</item>
+        <item name="iconGravity">textEnd</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="iconPadding">0dp</item>
+        <item name="iconSize">?attr/icon_size</item>
+    </style>
+</resources>

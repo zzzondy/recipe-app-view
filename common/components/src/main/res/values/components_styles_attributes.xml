@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="primaryButton" format="reference" />
+    <attr name="primaryIconButton" format="reference" />
+    <attr name="secondaryButton" format="reference" />
+    <attr name="secondaryIconButton" format="reference" />
+    <attr name="textButton" format="reference" />
+    <attr name="transparentIconButton" format="reference" />
+
+    <attr name="primaryTextField" format="reference" />
+</resources>

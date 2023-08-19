@@ -1,20 +1,17 @@
 plugins {
-    id(Plugins.androidApplication)
+    id(Plugins.androidLibrary)
     id(Plugins.kotlinAndroid)
 }
 
 android {
-    namespace = "com.recipeapp"
+    namespace = "com.recipeapp.components"
     compileSdk = Config.compileSdk
 
     defaultConfig {
-        applicationId = Config.applicationId
         minSdk = Config.minSdk
-        targetSdk = Config.targetSdk
-        versionCode = Config.versionCode
-        versionName = Config.versionName
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles("consumer-rules.pro")
     }
 
     buildTypes {
@@ -34,7 +31,7 @@ android {
             )
         }
     }
-
+    
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
@@ -43,30 +40,15 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-
-    buildFeatures {
-        viewBinding = true
-    }
 }
 
 dependencies {
 
-    // Modules
-    implementation(project(Modules.commonComponents))
-
-    // Lifecycle
     implementation(Dependencies.Lifecycle.core)
 
-    // UI
     implementation(Dependencies.UI.appCompat)
     implementation(Dependencies.UI.material)
-    implementation(Dependencies.UI.constraintLayout)
 
-    // Navigation
-    implementation(Dependencies.Navigation.fragment)
-    implementation(Dependencies.Navigation.ui)
-
-    // Testing
     testImplementation(Dependencies.Testing.junit)
     androidTestImplementation(Dependencies.Testing.androidJunit)
     androidTestImplementation(Dependencies.Testing.espresso)

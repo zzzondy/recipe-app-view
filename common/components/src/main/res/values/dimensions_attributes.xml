@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="defaultCornerRadius" format="reference" />
+
+    <attr name="extraSmallMargin" format="reference" />
+    <attr name="smallMargin" format="reference" />
+    <attr name="mediumMargin" format="reference" />
+    <attr name="largeMargin" format="reference" />
+    <attr name="extraLargeMargin" format="reference" />
+
+    <attr name="headingSize" format="reference"/>
+    <attr name="h1Size" format="reference"/>
+    <attr name="h2Size" format="reference"/>
+    <attr name="h3Size" format="reference"/>
+    <attr name="h4Size" format="reference"/>
+    <attr name="h5Size" format="reference"/>
+    <attr name="paragraphSize" format="reference"/>
+    <attr name="labelSize" format="reference"/>
+    <attr name="smallSize" format="reference"/>
+    <attr name="tinySize" format="reference"/>
+
+    <attr name="icon_size" format="reference"/>
+
+
+</resources>

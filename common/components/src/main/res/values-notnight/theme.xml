@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.RecipeApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorBackground">@color/white</item>
+        <item name="colorOnBackground">@color/black</item>
+
+        <item name="colorNeutral100">@color/neutral100</item>
+        <item name="colorNeutral90">@color/neutral90</item>
+        <item name="colorNeutral80">@color/neutral80</item>
+        <item name="colorNeutral70">@color/neutral70</item>
+        <item name="colorNeutral60">@color/neutral60</item>
+        <item name="colorNeutral50">@color/neutral50</item>
+        <item name="colorNeutral40">@color/neutral40</item>
+        <item name="colorNeutral30">@color/neutral30</item>
+        <item name="colorNeutral20">@color/neutral20</item>
+        <item name="colorNeutral10">@color/neutral10</item>
+
+        <item name="colorPrimary100">@color/primary100</item>
+        <item name="colorPrimary80">@color/primary80</item>
+        <item name="colorPrimary50">@color/primary50</item>
+
+        <item name="colorPrimary">?attr/colorPrimary50</item>
+    </style>
+</resources>

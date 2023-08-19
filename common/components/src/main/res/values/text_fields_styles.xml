@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RecipeApp.Widget.Primary.TextField" parent="Widget.Material3.TextInputEditText.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary50_neutral30_color_enabled_state</item>
+        <item name="boxStrokeWidth">@dimen/box_stroke_width</item>
+        <item name="android:textColor">@color/text_field_text_colors</item>
+        <item name="boxCornerRadiusTopStart">?attr/defaultCornerRadius</item>
+        <item name="boxCornerRadiusTopEnd">?attr/defaultCornerRadius</item>
+        <item name="boxCornerRadiusBottomStart">?attr/defaultCornerRadius</item>
+        <item name="boxCornerRadiusBottomEnd">?attr/defaultCornerRadius</item>
+        <item name="android:textAppearance">?attr/typographyRegularH5</item>
+        <item name="startIconTint">@color/neutral30</item>
+        <item name="endIconTint">@color/neutral30</item>
+        <item name="boxStrokeErrorColor">?attr/colorSuccess100</item>
+        <item name="errorTextColor">?attr/colorSuccess100</item>
+    </style>
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearance.AppCompat.Regular.Heading" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">?attr/headingSize</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Regular.H1" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">?attr/h1Size</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Regular.H2" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">?attr/h2Size</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Regular.H3" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">?attr/h3Size</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Regular.H4" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">?attr/h4Size</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Regular.H5" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">?attr/h5Size</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Regular.Paragraph" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">?attr/paragraphSize</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Regular.Label" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">?attr/labelSize</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Regular.Small" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">?attr/smallSize</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Regular.Tiny" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">?attr/tinySize</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Bold.Heading" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">?attr/headingSize</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Bold.H1" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">?attr/h1Size</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Bold.H2" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">?attr/h2Size</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Bold.H3" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">?attr/h3Size</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Bold.H4" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">?attr/h4Size</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Bold.H5" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">?attr/h5Size</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Bold.Paragraph" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">?attr/paragraphSize</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Bold.Label" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">?attr/labelSize</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Bold.Small" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">?attr/smallSize</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Bold.Tiny" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">?attr/tinySize</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+</resources>

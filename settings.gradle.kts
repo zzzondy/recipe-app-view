@@ -14,4 +14,9 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "RecipeApp"
+
+// App
 include(":app")
+
+// Common
+include(":common:components")

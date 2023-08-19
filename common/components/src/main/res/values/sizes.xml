@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="heading_size">56sp</dimen>
+    <dimen name="h1_size">48sp</dimen>
+    <dimen name="h2_size">40sp</dimen>
+    <dimen name="h3_size">32sp</dimen>
+    <dimen name="h4_size">24sp</dimen>
+    <dimen name="h5_size">20sp</dimen>
+    <dimen name="paragraph_size">16sp</dimen>
+    <dimen name="label_size">14sp</dimen>
+    <dimen name="small_size">12sp</dimen>
+    <dimen name="tiny_size">10sp</dimen>
+
+    <dimen name="icon_size">24dp</dimen>
+
+    <dimen name="box_stroke_width">2dp</dimen>
+</resources>

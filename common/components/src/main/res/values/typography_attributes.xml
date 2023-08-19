@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="typographyRegularHeading" format="reference" />
+    <attr name="typographyRegularH1" format="reference" />
+    <attr name="typographyRegularH2" format="reference" />
+    <attr name="typographyRegularH3" format="reference" />
+    <attr name="typographyRegularH4" format="reference" />
+    <attr name="typographyRegularH5" format="reference" />
+    <attr name="typographyRegularParagraph" format="reference" />
+    <attr name="typographyRegularLabel" format="reference" />
+    <attr name="typographyRegularSmall" format="reference" />
+    <attr name="typographyRegularTiny" format="reference" />
+
+    <attr name="typographyBoldHeading" format="reference" />
+    <attr name="typographyBoldH1" format="reference" />
+    <attr name="typographyBoldH2" format="reference" />
+    <attr name="typographyBoldH3" format="reference" />
+    <attr name="typographyBoldH4" format="reference" />
+    <attr name="typographyBoldH5" format="reference" />
+    <attr name="typographyBoldParagraph" format="reference" />
+    <attr name="typographyBoldLabel" format="reference" />
+    <attr name="typographyBoldSmall" format="reference" />
+    <attr name="typographyBoldTiny" format="reference" />
+
+</resources>
