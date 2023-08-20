@@ -20,3 +20,9 @@ include(":app")
 
 // Common
 include(":common:components")
+include(":common:network")
+
+// Features
+include(":feature:recipe:presentation")
+
+include(":feature:recipe_adding:presentation")

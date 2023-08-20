@@ -7,5 +7,9 @@ object Plugins {
     const val androidLibraryVersion = "8.1.0"
 
     const val kotlinAndroid = "org.jetbrains.kotlin.android"
-    const val kotlinAndroidVersion = "1.9.0"
+    const val kotlinVersion = "1.9.0"
+
+    const val kapt = "kotlin-kapt"
+
+    const val kotlinSerialization = "org.jetbrains.kotlin.plugin.serialization"
 }

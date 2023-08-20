@@ -3,6 +3,7 @@ package com.recipeapp
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
+import androidx.navigation.NavOptions
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.recipeapp.components.animations.AnimationConst
@@ -30,7 +31,14 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupViewsListeners(navController: NavController) {
         binding.recipeAddingButton.setOnBounceClickListener {
-            navController.navigate(R.id.addingFragment)
+            navController.navigate(
+                com.recipe_adding.presentation.R.id.recipe_adding_nav_graph,
+                null,
+                NavOptions.Builder().apply {
+                    setEnterAnim(R.anim.slide_from_bottom_to_top)
+                    setPopExitAnim(R.anim.slide_from_top_to_bottom)
+                }.build()
+            )
         }
     }
 
@@ -57,12 +65,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         navController.addOnDestinationChangedListener { _, destination, _ ->
-            when (destination.id) {
-                R.id.home_destination -> {
-                    showBottomNavigationView()
-                }
-
-                R.id.profile_destination -> {
+            when (destination.parent?.id) {
+                R.id.recipe_nav_graph -> {
                     showBottomNavigationView()
                 }
 

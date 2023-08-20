@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recipe_adding_nav_graph"
+    app:startDestination="@id/recipeAddingFragment">
+
+    <fragment
+        android:id="@+id/recipeAddingFragment"
+        android:name="com.recipe_adding.presentation.screens.recipe_adding.RecipeAddingFragment"
+        android:label="fragment_recipe_adding"
+        tools:layout="@layout/fragment_recipe_adding" />
+</navigation>
