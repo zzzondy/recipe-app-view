@@ -12,7 +12,7 @@ fun View.setOnBounceClickListener(onClick: () -> Unit = {}) {
     }
 
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-        this.setOnTouchListener { view, motionEvent ->
+        this.setOnTouchListener { _, motionEvent ->
             val scaleX =
                 ObjectAnimator.ofFloat(this@setOnBounceClickListener, View.SCALE_X, 1f, 0.9f)
                     .apply {

@@ -7,16 +7,60 @@
     tools:context=".MainActivity">
 
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentContainer"
+        android:id="@+id/nav_host_fragment"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:defaultNavHost="true"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bottom_navigation_view_layout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:navGraph="@navigation/nav_graph"
-        tools:layout="@layout/fragment_blank" />
+        tools:layout="@layout/fragment_home" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/bottom_navigation_view_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottom_app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:backgroundTint="?attr/colorBackground"
+            app:fabAlignmentMode="center"
+            tools:ignore="VisualLintBottomAppBar">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottom_navigation_view"
+                style="@style/Widget.MaterialComponents.BottomNavigationView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="?attr/mediumMargin"
+                android:background="@color/transparent"
+                app:itemPaddingTop="?attr/mediumMargin"
+                app:itemRippleColor="@color/transparent"
+                app:menu="@menu/menu_main" />
+
+        </com.google.android.material.bottomappbar.BottomAppBar>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/recipe_adding_button"
+            style="?attr/floatingActionButtonSmallPrimaryStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="?attr/colorPrimary50"
+            android:contentDescription="@string/add_recipe"
+            android:src="@drawable/round_add"
+            app:layout_anchor="@id/bottom_app_bar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

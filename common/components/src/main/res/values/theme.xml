@@ -12,6 +12,8 @@
         <item name="colorSuccess100">@color/success100</item>
         <item name="colorSuccess10">@color/success10</item>
 
+        <item name="colorOnPrimaryContainer">@color/white</item>
+
         <item name="typographyRegularHeading">@style/TextAppearance.AppCompat.Regular.Heading</item>
         <item name="typographyRegularH1">@style/TextAppearance.AppCompat.Regular.H1</item>
         <item name="typographyRegularH2">@style/TextAppearance.AppCompat.Regular.H2</item>
