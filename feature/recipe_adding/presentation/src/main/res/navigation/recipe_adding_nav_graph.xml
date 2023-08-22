@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/recipeAddingFragment"
-        android:name="com.recipe_adding.presentation.screens.recipe_adding.RecipeAddingFragment"
+        android:name="com.recipe_adding.presentation.screens.recipe_adding.RecipeAddingScreenFragment"
         android:label="fragment_recipe_adding"
-        tools:layout="@layout/fragment_recipe_adding" />
+        tools:layout="@layout/fragment_recipe_adding_screen" />
 </navigation>
