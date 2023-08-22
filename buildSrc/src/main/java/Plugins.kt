@@ -6,8 +6,11 @@ object Plugins {
     const val androidLibrary = "com.android.library"
     const val androidLibraryVersion = "8.1.0"
 
-    const val kotlinAndroid = "org.jetbrains.kotlin.android"
+    const val javaLibrary = "java-library"
+
     const val kotlinVersion = "1.9.0"
+    const val kotlinAndroid = "org.jetbrains.kotlin.android"
+    const val kotlinJvm = "org.jetbrains.kotlin.jvm"
 
     const val kapt = "kotlin-kapt"
 

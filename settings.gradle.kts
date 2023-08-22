@@ -26,3 +26,4 @@ include(":common:network")
 include(":feature:recipe:presentation")
 
 include(":feature:recipe_adding:presentation")
+include(":feature:recipe_adding:domain")
