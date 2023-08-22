@@ -7,4 +7,5 @@ object Modules {
     const val featureRecipePresentation = ":feature:recipe:presentation"
 
     const val featureRecipeAddingPresentation = ":feature:recipe_adding:presentation"
+    const val featureRecipeAddingDomain = ":feature:recipe_adding:domain"
 }

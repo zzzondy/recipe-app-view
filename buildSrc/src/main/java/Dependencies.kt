@@ -44,6 +44,23 @@ object Dependencies {
             "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:1.0.0"
     }
 
+    object Coil {
+        const val coil = "io.coil-kt:coil:2.4.0"
+    }
+
+    object Paging {
+        private const val pagingVersion = "3.2.0"
+
+        const val common = "androidx.paging:paging-common-ktx:$pagingVersion"
+        const val compose = "androidx.paging:paging-runtime:$pagingVersion"
+    }
+
+    object FlowRedux {
+        private const val flowReduxVersion = "1.0.2"
+
+        const val flowRedux = "com.freeletics.flowredux:flowredux-jvm:$flowReduxVersion"
+    }
+
     object Testing {
 
         const val junit = "junit:junit:4.13.2"

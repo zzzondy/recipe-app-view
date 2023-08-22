@@ -51,6 +51,8 @@ dependencies {
     // Modules
     implementation(project(Modules.commonComponents))
 
+    implementation(project(Modules.featureRecipeAddingDomain))
+
     // Lifecycle
     implementation(Dependencies.Lifecycle.core)
 
